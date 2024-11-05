@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_component_titles",
+  "info": {
+    "displayName": "Title"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.text"
+    }
+  }
+}

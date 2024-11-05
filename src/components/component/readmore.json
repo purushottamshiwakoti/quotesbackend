@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_component_readmores",
+  "info": {
+    "displayName": "Readmore"
+  },
+  "options": {},
+  "attributes": {
+    "readmore": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.link"
+    }
+  }
+}

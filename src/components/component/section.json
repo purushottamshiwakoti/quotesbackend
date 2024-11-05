@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_component_sections",
+  "info": {
+    "displayName": "Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    }
+  }
+}

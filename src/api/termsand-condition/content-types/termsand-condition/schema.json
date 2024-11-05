@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "termsand_conditions",
+  "info": {
+    "singularName": "termsand-condition",
+    "pluralName": "termsand-conditions",
+    "displayName": "TermsandCondition",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "title": {
+      "type": "string"
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.seo"
+    }
+  }
+}
